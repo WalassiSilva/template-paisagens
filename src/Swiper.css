@@ -1,0 +1,32 @@
+
+.swiper-wrapper {
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  z-index: 20;
+  color: white;
+  padding: 1rem;
+  border-radius: 100%;
+  top: 95%;
+}
+
+.swiper-button-prev{
+  left: 30%;
+  background-image: url("../src/assets/imgs/icons/chevron-left.svg");
+}
+
+.swiper-button-next{
+  right: 30%;
+  background-image: url("../src/assets/imgs/icons/chevron-right.svg");
+}
