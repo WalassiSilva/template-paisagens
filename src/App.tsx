@@ -28,7 +28,7 @@ function App() {
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
       <Header />
-      <main className="dark:bg-red-600 dark:text-white justify-center items-center mx-auto px-4 flex flex-col gap-14 scroll-mt-16 ">
+      <main className="dark:bg-red-800 dark:text-white justify-center items-center mx-auto px-4 flex flex-col gap-14 scroll-mt-16 ">
         <Home id="home" />
         <About id="about" />
         <Projects id="projects" />
