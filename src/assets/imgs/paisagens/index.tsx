@@ -13,6 +13,8 @@ import img12 from "./img12.jpg";
 import img13 from "./img13.jpg";
 import logo from "./logo.jpg";
 import logoLight from "./logo-light.jpg";
+import yingYang from "./ying-yang.png";
+import yingYangFish from "./ying-yang-fish.png";
 
 export default {
   img1,
@@ -29,5 +31,7 @@ export default {
   img12,
   img13,
   logo,
-  logoLight
+  logoLight,
+  yingYang,
+  yingYangFish,
 }
