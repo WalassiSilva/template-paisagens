@@ -5,8 +5,6 @@ import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
 import { Projects } from "./components/Projects"
-// import { FaMoon} from "react-icons/fa"
-// import { GiSunbeams } from "react-icons/gi";
 import imgs from "./assets/imgs/paisagens";
 
 function App() {
@@ -38,10 +36,10 @@ function App() {
       </main>
       <Footer />
       <button onClick={() => { toogleDisplayMode() }}
-        className=" bg-white rounded-full fixed bottom-2 right-2 transiction duration-300"
+        className=" bg-white rounded-full fixed bottom-2 right-2 transiction duration-300 z-20"
       >{darkMode
-        ? <img src={imgs.yingYang} className="size-16 text-red-800 rounded-full object-contain transiction duration-300" />
-        : <img src={imgs.yingYang} className="size-16 text-red-600 rounded-full object-contain rotate-180 transiction duration-300" />}
+        ? <img src={imgs.yingYang} className="size-12 md:size-16 text-red-800 rounded-full object-contain transiction duration-300" />
+        : <img src={imgs.yingYang} className="size-12 md:size-16 text-red-600 rounded-full object-contain rotate-180 transiction duration-300" />}
       </button>
     </div>
   )

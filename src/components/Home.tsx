@@ -6,8 +6,9 @@ export function Home({ id }: { id: string }) {
   return (
     <section id={id} className="max-w-[90%] mt-10 flex justify-center flex-col md:flex-row gap-10 scroll-mt-20">
       <div className="flex flex-col gap-4 max-w-[90%] md:max-w-[460px] mx-auto md:mx-0 my-auto items-center md:items-start text-center md:text-start justify-center ">
-        <h1 className="font-title italic text-3xl">Bem vindo as Paisagens do Japão</h1>
-        <p className="max-w-[450px">Essas imagens incríveis foram retiradas do Pinterest.</p>
+        <h1 className="font-title italic text-3xl">Bem vindo ao seu site </h1>
+        <p className="max-w-[450px">Porque ser visto é bom, </p>
+        <p className="max-w-[450px">Mas ser lembrado faz toda diferença</p>
         
         <div
           data-aos="zoom-in"

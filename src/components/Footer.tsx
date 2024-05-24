@@ -6,7 +6,7 @@ export function Footer() {
     return (
         <footer>
             <div className=" flex flex-col md:flex-row justify-center items-center md:justify-around font-semibold gap-4 p-4 bg-zinc-100 w-full ">
-                Paisagens
+                Template site
                 <nav>
                     <ul className="flex gap-4">
                         <li className="size-8 p-1 bg-zinc-300 rounded-full cursor-pointer hover:bg-zinc-700 hover:text-white" >

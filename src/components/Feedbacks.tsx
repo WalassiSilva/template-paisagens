@@ -7,19 +7,19 @@ import { FaUser } from "react-icons/fa";
 
 const feedbacks = [
   {
-    feedback: "l Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit at fuga veritatis laborum totam ratione repellat id aliquam corporis modi facere ad, quia accusamus perspiciatis vitae quam consequuntur voluptates similique.orem",
+    feedback: "Os feedbacks mais memoráveis serão mostrados aqui. Clientes satisfeitos com seus serviços, clientes que se surpreenderam ",
 
     name: "User",
 
   },
   {
-    feedback: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit at fuga veritatis laborum totam ratione repellat id aliquam corporis modi facere ad, quia accusamus perspiciatis vitae quam consequuntur voluptates similique.",
+    feedback: "Aquele feedback que sempre trás um sentimento bom ao ler.",
     name: "User",
 
   },
 
   {
-    feedback: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit at fuga veritatis laborum totam ratione repellat id aliquam corporis modi facere ad, quia accusamus perspiciatis vitae quam consequuntur voluptates similique.",
+    feedback: " Feedbacks que reforçam o quanto seu produto é bom, que mostram a confiança que foi passada para eles",
     name: "User",
 
   },
@@ -54,7 +54,7 @@ export function FeedbackCard() {
             >
               <p>{item.feedback}</p>
               <div className="mx-auto flex ">
-                  <FaUser />
+                  <FaUser className=" rounded-full size-10" />
               </div>
 
               <p className="font-semibold text-center">{item.name}</p>
